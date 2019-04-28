@@ -184,3 +184,7 @@
 	    }
 	}
 
+<<<<<<< HEAD
+=======
+}
+>>>>>>> branch 'master' of https://github.com/jianghuopro/test.git

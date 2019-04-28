@@ -23,10 +23,12 @@ public class test_main {
 			System.out.println("学号"+"\t"+"姓名"+"\t"+"年龄"+"\t"+"地址");
 			System.out.println("-----------------------------------");
 			while(rs.next()){
-				String name = rs.getString("sname");
-				String age = rs.getString("age");
-				String address = rs.getString("address");
-				System.out.println(rs.getString("sno")+"\t"+name+"\t"+age+"\t"+address);
+				String transtatus = rs.getString("transtatus");
+				String vechilestatus = rs.getString("vechilestatus");
+				String weather = rs.getString("weather");
+				String holiday = rs.getString("holiday");
+				String road = rs.getString("road");
+				System.out.println(rs.getString("sno")+"\t"+transtatus+"\t"+vechilestatus+"\t"+weather+"\t"+ holiday+"\t"+road);
 			}
 			rs.close();
 			c.close();
